@@ -25,17 +25,32 @@
     color: white;
     cursor: pointer;
 }
+.section-heading{
+    max-width: auto;
+    text-align: center;
+}
+.section-heading h2{
+    font-size: 35px;
+    margin-bottom: 30px;
+}
+.section-heading p{
+    font-size:18px;
+    margin-bottom: 30px;
+    line-height: 30px;
+    color:#757575;
+
+}
 /*main CSS*/
 header{
     background-color: #FFF8F3;
     background: url("../images/developer.png") , url('../images/header_bg.png'),#FFF8F3; ;
     background-position: top left, bottom right;
     background-repeat: no-repeat;
-    padding-top: 50px;
+    padding-top: 100px;
 }
 nav{
     width:83%;
-    max-width: 3000px;
+    max-width: 2500px;
     margin:0px auto;
     display: flex;
     justify-content: space-between;
@@ -84,4 +99,28 @@ nav .menu a{
     max-width:585px;
     vertical-align: middle;
     
+}
+#about{
+    padding-top: 130px;
+}
+#about .about-container{
+    width:83%;
+    max-width:2500px;
+    margin: 0 auto;
+    text-align:center;
+    background-color: #FFF8F3;
+    padding: 131px 157px;
+}
+#about .about-container .about-info{
+    display:flex;
+    justify-content: space-around;
+}
+.about-info .info-card p{
+    font-size:20px;
+    line-height: 30px;
+    color:#757575;
+
+}
+.about-info .info-card h4{
+    font-size: 20px;
 }
