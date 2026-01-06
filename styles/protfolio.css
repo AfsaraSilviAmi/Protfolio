@@ -47,10 +47,12 @@
 /*main CSS*/
 header{
     background-color: #FFF8F3;
-    background: url("../images/developer.png") , url('../images/header_bg.png'),#FFF8F3; ;
-    background-position: top left, bottom right;
+    background: url("../images/developer.png") , url('../images/header_bg.png'),#FFF8F3;
+    background-position: 23px 38px , bottom right;
     background-repeat: no-repeat;
-    padding-top: 100px;
+    padding-top: 50px;
+    background-size: auto 650px,
+        auto;
 }
 nav{
     width:83%;
