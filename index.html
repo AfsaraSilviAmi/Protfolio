@@ -9,28 +9,33 @@
 <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 <link rel="stylesheet" href="styles/protfolio.css">
+ <!-- daisyUI -->
+     <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 </head>
 <body class="font-open-sans">
     <header>
         <nav>
         <div class="logo">
-            <h2>A<span class="color">m</span>i</h2>
+            <h2 class="font-bold text-4xl">A<span class="text-[#e174f7]">m</span>i</h2>
         </div>
-            <ul class="menu">
-                <li><a href="">Protfolio</a></li>
-                <li><a href="">Blog</a></li>
+            <ul class="flex gap-8">
+                <li class="text-xl"><a href="">Portfolio</a></li>
+                <li class="text-xl"><a href="">Projects</a></li>
                 <li><button class ="btn">Hire Me</button></li>
             </ul>
         
         </nav>
         <section id="banner">
             <div class="banner-content">
-            <h2>Hi, I am</h2>
+            <h2 class="text-xl font-bold">Hi, I am</h2>
             <h1>Afsara Silvi Ami</h1> 
-            <p>I am learning Web development. In future I aim to be a front-end Web developer. I have a CSE background. And I am very egar to explore new things if given the opportunity.</p>
+            <p>I'm a passionate web developer and tech enthusiast. I love turning ideas into functional, user-friendly web applications. My focus is on building responsive, interactive, and efficient solutions using modern technologies like HTML, TailWind CSS, JavaScript, DOM and API.</p>
             <div class="btn-group">
-                <button class="btn"><i class="fa-solid fa-download"></i> Download CV</button>
-                <button class="btn"><i class="fa-solid fa-phone"></i> Contact</button>
+                <button class="btn"><a href="./images/Latest CV of Asara Silvi Ami.pdf" download><i class="fa-solid fa-download"></i> Download CV</a></button>
+               <a href="https://www.linkedin.com/in/afsara-silvi-ami" target="_blank" class="btn">
+  <i class="fa-brands fa-linkedin"></i> LinkedIn
+</a>
             </div>
             </div>
             <div class="banner-img">
@@ -42,29 +47,26 @@
     <section id="about">
         <div class="about-container">
             <div class="section-heading">
-                <h2>About me</h2>
-                <p>I am an aspiring Front-End Developer with a strong interest in building clean, responsive, and user-friendly web interfaces. I enjoy turning ideas and designs into functional websites using HTML, CSS, and JavaScript, and I’m continuously improving my skills by practicing and working on real projects.
-
-I have a growing understanding of modern web development concepts such as responsive design, accessibility, and version control (Git/GitHub). I enjoy learning new technologies and keeping up with industry trends to improve both the visual and functional quality of my work.
-
-My goal is to become a professional front-end developer who creates engaging digital experiences while writing clean, maintainable code. I am motivated, detail-oriented, and eager to learn, and I look forward to contributing to meaningful projects and growing as a developer.</p>
+                <h2 class="font-bold">About me</h2>
+                <p>I’m Ami, an aspiring Front-End Developer passionate about building clean, responsive, and user-friendly web interfaces. I love turning ideas into functional websites and web apps using HTML, TailWind CSS, JavaScript, and frameworks I’m learning along the way.
+                    I’ve worked on projects like a banking web app, an English learning platform for Bangla speakers, and a task/issue tracker, which have helped me strengthen my skills in responsive design, accessibility, and version control (Git/GitHub). I enjoy exploring new technologies and staying up-to-date with industry trends to improve both the visual and functional quality of my work. I’m motivated, detail-oriented, and eager to grow as a developer. My goal is to create engaging digital experiences with clean, maintainable code while contributing to projects that make a difference</p>
             </div>
             <div class="about-info">
                 <div class="info-card">
                 <p>Name:</p>
-                <h4>Afsara Silvi Ami</h4>
+                <h4 class="font-bold">Afsara Silvi Ami</h4>
                 </div>
                 <div class="info-card">
                 <p>Email:</p>
-                <h4>afsarasilvi44@gmail.com</h4>
+                <h4 class="font-bold">afsarasilvi44@gmail.com</h4>
                 </div>
                 <div class="info-card">
                 <p>Date of birth:</p>
-                <h4>16<sup>th</sup> June, 2000</h4>
+                <h4 class="font-bold">16<sup>th</sup> June, 2000</h4>
                 </div>
                 <div class="info-card">
                 <p>From:</p>
-                <h4>Dhaka,Bangladesh</h4>
+                <h4 class="font-bold">Dhaka,Bangladesh</h4>
                 </div>
             </div>
         </div>
@@ -72,30 +74,30 @@ My goal is to become a professional front-end developer who creates engaging dig
     <section id="skills">
         <div class="skills-container">
             <div class="section-heading">
-                <h2>What I do</h2>
-                <p>I build simple and responsive websites using HTML and CSS, and I add basic interactivity with JavaScript. I focus on creating clean layouts, well-structured content, and designs that work smoothly across different screen sizes. I regularly practice by working on small projects, improving my understanding of front-end fundamentals, and learning how to use Git and GitHub for version control. Step by step, I explore modern front-end practices and continuously work on improving both my skills and my code quality.</p>
+                <h2 class="font-bold">What I do</h2>
+                <p>I build clean, responsive, and user-friendly web interfaces as a Front-End Developer. I turn ideas and designs into functional websites and web apps using HTML, CSS, and JavaScript, with a focus on responsive design, accessibility, and maintainable code. I work on real-world projects like banking apps, English learning platforms for Bangla speakers, and task/issue trackers, improving both their visual appeal and functionality. I also use Git and GitHub for version control and project management, and I continually explore new tools, frameworks, and industry trends to enhance my skills and deliver engaging digital experiences.</p>
             </div>
             <div class="skill-box">
                 <div class="skill-card">
                     <img src="images/icons/js.png" alt="">
                     <h3>Vanilla JavaScript</h3>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempora totam quam quisquam rerum id quas sit numquam officiis blanditiis placeat, expedita maiores, repudiandae provident? Obcaecati?Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis quos delectus pariatur sapiente repudiandae in eos debitis voluptatum eum est ab error, aliquid porro alias. 
+                    <p>Vanilla JavaScript refers to plain JavaScript without the use of any frameworks or libraries. It is the core language of the web, used to make websites interactive, dynamic, and responsive. With Vanilla JS, you can manipulate the DOM, handle events, create animations, validate forms, and communicate with APIs. Learning it deeply helps you understand the fundamentals of JavaScript and web development, making it easier to work with modern frameworks like React, Vue, or Angular in the future.
                     </p>
                 </div>
                 <div class="skill-card">
                     <img src="images/icons/react.png" alt="">
                     <h3>React</h3>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempora totam quam quisquam rerum id quas sit numquam officiis blanditiis placeat, expedita maiores, repudiandae provident? Obcaecati?Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis quos delectus pariatur sapiente repudiandae in eos debitis voluptatum eum est ab error, aliquid porro alias.</p>
+                    <p>React is a popular JavaScript library for building dynamic and interactive user interfaces, especially for single-page applications. It allows developers to create reusable components, manage state efficiently, and update the UI seamlessly with virtual DOM. React’s component-based approach and strong ecosystem make it easier to build scalable, maintainable, and modern web applications.</p>
                 </div>
                 <div class="skill-card">
                     <img src="images/icons/nodejs.png" alt="">
                     <h3>Node.js</h3>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempora totam quam quisquam rerum id quas sit numquam officiis blanditiis placeat, expedita maiores, repudiandae provident? Obcaecati?Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis quos delectus pariatur sapiente repudiandae in eos debitis voluptatum eum est ab error, aliquid porro alias.</p>
+                    <p>Node.js is a JavaScript runtime that allows you to run JavaScript on the server-side. It is designed for building fast, scalable, and efficient backend applications using an event-driven, non-blocking I/O model. With Node.js, you can create APIs, handle databases, manage server logic, and build full-stack applications entirely with JavaScript.</p>
                 </div>
                 <div class="skill-card">
                     <img src="images/icons/mongo.png" alt="">
                     <h3>MongoDB</h3>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempora totam quam quisquam rerum id quas sit numquam officiis blanditiis placeat, expedita maiores, repudiandae provident? Obcaecati?Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis quos delectus pariatur sapiente repudiandae in eos debitis voluptatum eum est ab error, aliquid porro alias.</p>
+                    <p>MongoDB is a NoSQL database that stores data in flexible, JSON-like documents instead of traditional tables. It’s designed for scalability, high performance, and ease of development, making it ideal for modern web applications. MongoDB works seamlessly with JavaScript-based backends like Node.js, allowing developers to manage, query, and manipulate data efficiently in full-stack applications.</p>
                 </div>
 
             </div>
@@ -103,80 +105,81 @@ My goal is to become a professional front-end developer who creates engaging dig
     </section>
     <section id="resume">
         <div class="section-heading">
-            <h2>A Summery of My Resume</h2>
+            <h2 class="font-bold">A Summery of My Resume</h2>
         </div>
         <div class="resume-container">
             <div class="education">
-                <h2 class="section-title">My Education</h2>
-                <div class="resume-card">
-                    <h3 class="card-title">SSC in Science</h3>
-                    <p class="card-info">Mohammadpur Preparatory School and College / 2016-2017</p>
-                    <p class ="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestias sunt voluptatum ipsum perspiciatis, sequi sapiente iusto esse ipsam quas eligendi debitis in blanditiis pariatur at.</p>
-                </div>
-                <hr>
-                <div class="resume-card">
-                    <h3 class="card-title">HSC in Science</h3>
-                    <p class="card-info">Mohammadpur Preparatory School and College / 2018-2019</p>
-                    <p class ="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestias sunt voluptatum ipsum perspiciatis, sequi sapiente iusto esse ipsam quas eligendi debitis in blanditiis pariatur at.</p>
-                </div>
-                <hr>
-                <div class="resume-card">
+                <h2 class="section-title font-bold">My Education</h2>
+                 <div class="resume-card">
                     <h3 class="card-title">BSc. in Computer Science and Engineering</h3>
-                    <p class="card-info">Mohammadpur Kendriya College / 2020-2026</p>
-                    <p class ="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestias sunt voluptatum ipsum perspiciatis, sequi sapiente iusto esse ipsam quas eligendi debitis in blanditiis pariatur at.</p>
+                    <p class="card-info">Mohammadpur Kendriya College || 2020-2026</p>
+                    <p class ="card-text">I completed my BSc in Computer Science and Engineering (CSE), where I gained a strong foundation in programming, algorithms, data structures, databases, and web development. During my studies, I developed problem-solving skills and a solid understanding of software development principles, which I now apply in building real-world projects and web applications.</p>
+                </div>
+                <hr>
+                <div class="resume-card">
+                    <h3 class="card-title">HSC in Science (English Version)</h3>
+                    <p class="card-info">Mohammadpur Preparatory School and College || 2018-2019</p>
+                    <p class ="card-text">I completed my Higher Secondary Certificate (HSC) in Science, where I built a strong foundation in Mathematics, Physics, Chemistry and ICT. This background helped me develop analytical and problem-solving skills that support my work in programming and web development.</p>
+                </div>
+                <hr>
+                 <div class="resume-card">
+                    <h3 class="card-title">SSC in Science (English Version)</h3>
+                    <p class="card-info">Mohammadpur Preparatory School and College || 2016-2017</p>
+                    <p class ="card-text">I completed my Secondary School Certificate (SSC) in Science, gaining a solid foundation in Mathematics, Physics, and Chemistry.</p>
                 </div>
                 <hr>
             </div>
             <div class="experience">
-                <h2 class="section-title">My Experience</h2>
+                <h2 class="section-title font-bold">My Training and Certificates</h2>
                 <div class="resume-card">
-                    <h3 class="card-title">BSc. in Computer Science and Engineering</h3>
-                    <p class="card-info">Mohammadpur Kendriya College / 2020-2026</p>
-                    <p class ="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestias sunt voluptatum ipsum perspiciatis, sequi sapiente iusto esse ipsam quas eligendi debitis in blanditiis pariatur at.</p>
+                    <h3 class="card-title">Web development with Python and Django</h3>
+                    <p class="card-info">Brac Institute of Skill Development || 3 months</p>
+                    <p class ="card-text">Completed a comprehensive course on web development using Python and Django, including building dynamic websites, and working with databases</p>
                 </div>
                 <hr>
                 <div class="resume-card">
-                    <h3 class="card-title">BSc. in Computer Science and Engineering</h3>
-                    <p class="card-info">Mohammadpur Kendriya College / 2020-2026</p>
-                    <p class ="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestias sunt voluptatum ipsum perspiciatis, sequi sapiente iusto esse ipsam quas eligendi debitis in blanditiis pariatur at.</p>
+                    <h3 class="card-title">Data Entry</h3>
+                    <p class="card-info">Nation IT Institute || 3 months</p>
+                    <p class ="card-text">Completed a Data Entry training at Nation IT Institute, gaining practical skills in data management, accuracy, and efficiency while working with digital tools and software.</p>
                 </div>
                 <hr>
                 <div class="resume-card">
-                    <h3 class="card-title">BSc. in Computer Science and Engineering</h3>
-                    <p class="card-info">Mohammadpur Kendriya College / 2020-2026</p>
-                    <p class ="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestias sunt voluptatum ipsum perspiciatis, sequi sapiente iusto esse ipsam quas eligendi debitis in blanditiis pariatur at.</p>
+                    <h3 class="card-title">Graphic Design </h3>
+                    <p class="card-info">Pixel IT Institute || 3 months</p>
+                    <p class ="card-text">Completed Graphics Design training, gaining hands-on experience in visual design, layout, and digital tools to create engaging and professional graphics.</p>
                 </div>
                 <hr>
             </div>
         </div>
         <div class="text-center">
-            <button class="btn"><i class="fa-solid fa-download"></i>Download CV</button>
+             <button class="btn"><a href="./images/Latest CV of Asara Silvi Ami.pdf" download><i class="fa-solid fa-download"></i> Download CV</a></button>
         </div>
 
     </section>
     <footer>
         <section class="footer-container">
             <div class="social">
-                <h2>Lets Connect</h2>
+                <h2 class="font-bold">Lets Connect</h2>
                 <p>Please fill out the form on this section to contact with me or call between 9:00 A.M and 8.00 P.M ET, Monday through Friday.</p>
-                <div class="icons">
-                    <a href=""><img src="images/icons/facebook.png" alt=""></a>
-                    <a href=""><img src="images/icons/twitter.png" alt=""></a>
-                    <a href=""><img src="images/icons/insta.png" alt=""></a>
+                <div class="icons flex">
+                  
+                   <a href="https://www.linkedin.com/in/afsara-silvi-ami" target="_blank">
+  <i class="fa-brands fa-linkedin text-xl"></i>
+</a>
                 </div>
             </div>
             <form action="" class="form">
-                <h2>Let's Meassage Me</h2>
+                <h2 class="font-bold text-2xl">Let's Meassage Me</h2>
                 <div>
-                    <input type="text" name="" id="" placeholder="Your Name"> 
+                    <input  class="bg-white" type="text" name="" id="" placeholder="Your Name"> 
                 </div>
                 <div>
-                    <input type="text" name="" id="" placeholder="Your Email"> 
+                    <input  class="bg-white" type="text" name="" id="" placeholder="Your Email"> 
                 </div>
                 <div>
-                    <textarea rows="10" name="" id="" placeholder="Message"></textarea>
+                    <textarea  class="bg-white" rows="10" name="" id="" placeholder="Message"></textarea>
                 </div>
-                <input class="btn" type="submit" value="Submit">
+                <button class="bg-[#e174f7] p-3 rounded-xl text-xl font-bold text-white"><input class="" type="submit" value="Submit"></button>
             </form>
         </section>
     </footer>
